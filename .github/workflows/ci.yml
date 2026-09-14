@@ -17,3 +17,5 @@ jobs:
           mkdir -p build
           gcc -Isrc -Itest test/test_cmd_pool.c src/cmd_pool.c test/unity/unity.c -o build/test_cmd_pool
           ./build/test_cmd_pool
+          gcc -Isrc -Itest test/test_parser.c test/unity/unity.c -o build/test_parser
+          ./build/test_parser
