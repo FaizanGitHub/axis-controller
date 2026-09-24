@@ -1,5 +1,5 @@
 #include "unity/unity.h"
-#include "cmd_pool.h"
+#include "../src/cmd_pool.c"
 
 void setUp(void)    { cmd_pool_init(); }
 void tearDown(void) {}
